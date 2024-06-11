@@ -2,9 +2,6 @@ import Web3 from "web3";
 import contractABI from "../contracts/main.json";
 import profileContractABI from "../contracts/user.json";
 
-// const contractAddress = "0xD03ed2100F59eD19819093eDf1bf8618cC71Dc63";
-// const profileContractAddress = "0xDb17eDFBC8e9b5AAaea0fF0885E3B0f99771727E";
-
 const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS;
 const profileContractAddress = process.env.REACT_APP_PROFILE_CONTRACT_ADDRESS;
 
