@@ -22,7 +22,6 @@ export default function App() {
     }
 
     const tempTweets = await contract.methods.getAllTweets(account).call();
-    // we do this so we can sort the tweets by timestamp
     const tweets = [...tempTweets];
     tweets.sort((a, b) => b.timestamp - a.timestamp);
     setTweets(tweets);
