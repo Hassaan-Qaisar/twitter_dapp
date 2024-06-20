@@ -46,7 +46,6 @@ To set up and run the project locally, follow these steps:
 
 1. Install dependencies and start the React frontend:
     ```bash
-    cd ../frontend
     npm install
     npm start
     ```
